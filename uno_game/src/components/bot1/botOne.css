@@ -1,0 +1,75 @@
+.BotOne {
+  display: flex;
+  justify-content: space-evenly;
+  width: 220px;
+  height: 170px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  background-color: #228b22;
+  border-radius: 5px 5px 20px 20px;
+  border-bottom: 3px solid #442a22;
+  border-left: 3px solid #442a22;
+  animation: BotGlow 3s linear 0.5s infinite;
+}
+
+.BotOne button {
+  width: 50px;
+  height: 50px;
+}
+
+.BotOne button:hover {
+  background-color: #3d968d;
+}
+
+.leftPartOfBot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.UNOBotAlarm {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: red;
+  color: azure;
+  border-radius: 8px;
+  border: 3px solid red;
+  font-weight: 700;
+}
+
+.ACTIVEBotOne {
+  border-left: 3px solid aqua;
+  border-bottom: 5px solid aqua;
+}
+
+@keyframes botExpand {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.07);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes BotGlow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 12px aqua;
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 3px aqua;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 12px aqua;
+  }
+}

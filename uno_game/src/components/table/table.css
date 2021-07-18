@@ -1,0 +1,95 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #684b3d;
+}
+.TableLocation {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 700px;
+  height: 300px;
+  background-color: #228b22;
+  border-radius: 30px;
+  border: 20px solid #442a22;
+  animation: TableGlow 3s linear 0s infinite;
+  box-shadow: 0 0 12px aqua;
+}
+
+.botButton {
+  background-color: #684b3d;
+  border-radius: 10px;
+  border: 3px solid aqua;
+  box-shadow: 3px 3px #442a22;
+  color: azure;
+  font-weight: 800;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+.statusBlock {
+  width: 200px;
+  display: block;
+}
+
+.deckAndCardLocation {
+  margin: 0 auto;
+  width: 290px;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.botOneLocation {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  right: 50px;
+  top: 180px;
+}
+
+.botTwoLocation {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  left: 47%;
+  top: 0;
+}
+
+.botThreeLocation {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  left: 50px;
+  top: 180px;
+}
+
+.bottomPart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+@keyframes TableGlow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 12px aqua;
+  }
+  50% {
+    transform: scale(1.009);
+    box-shadow: 0 0 8px aqua;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 12px aqua;
+  }
+}

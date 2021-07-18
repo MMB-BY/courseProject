@@ -1,0 +1,58 @@
+.FinishGame {
+  width: 100%;
+  height: 100%;
+  background-color: #684b3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.result {
+  width: 20%;
+  height: 10%;
+  border-top: 10px solid aqua;
+  border-radius: 15px;
+  color: aqua;
+  font-size: 3em;
+  text-align: center;
+}
+
+.resultLine {
+  width: 20%;
+  height: 2px;
+  background-color: aqua;
+  border: 1px solid aqua;
+}
+
+.winner {
+  width: 20%;
+  height: 10%;
+  border-bottom: 10px solid aqua;
+  border-radius: 15px;
+  color: aqua;
+  font-size: 3em;
+  text-align: center;
+}
+
+.restart {
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #442a22;
+  border-radius: 50%;
+  border: 5px solid aqua;
+  box-shadow: 0 0 5px aqua;
+  color: azure;
+  font-size: 30px;
+}
+
+.restart:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px aqua;
+  box-shadow: 3px 3px 1px #442a22;
+}
+
+.restart:active {
+  box-shadow: none;
+}

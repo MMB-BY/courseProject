@@ -1,0 +1,53 @@
+.cardFaceUp {
+  box-sizing: border-box;
+  width: 100px;
+  height: 150px;
+  border-radius: 13px;
+  border: 8px solid white;
+  overflow: hidden;
+  position: relative;
+  margin-right: 3px;
+}
+
+.topLeftDigit,
+.bottomRightDigit {
+  height: 15px;
+  width: 15px;
+  color: azure;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.topLeftDigit {
+  left: 5px;
+  top: 3px;
+}
+
+.bottomRightDigit {
+  right: 0;
+  top: 110px;
+}
+
+.whitePart {
+  width: 70px;
+  height: 125px;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  margin-top: 5px;
+  margin-left: 6px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.valueOfCard {
+  font-size: 55px;
+  font-weight: 800;
+  transform: rotate(-30deg);
+}
+
+.longCard {
+  font-size: 25px;
+}
