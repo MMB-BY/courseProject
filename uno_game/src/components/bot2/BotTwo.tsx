@@ -36,7 +36,7 @@ export const BotTwo: React.FC<BotTwoProps> = (props) => {
 
   const fits = (element: CardType, index: number) => {
     if (
-      cardOnTop.suit === "black" ||
+      element.suit === "black" ||
       cardOnTop.suit === element.suit ||
       cardOnTop.value === element.value
     ) {
